@@ -27,6 +27,7 @@ nav {
     margin-bottom: 30px;
 }
 
+/* Lista link nav */
 nav ul {
     list-style-type: none;
 }
@@ -40,6 +41,7 @@ ul li {
     padding-right: 15px;
     color: grey;
 }
+/* /Lista link nav */
 
 #jumbotron {
     background-image: url(img/banner.jpg);
@@ -50,12 +52,14 @@ ul li {
     border-radius: 10px 10px 10px 10px;
 }
 
+/* Contenuto jumbotron */
 #jumbotron #main-jumbotron {
     padding-top: 290px;
     padding-left: 50px;
     width: 49%;
     color: black;
 }
+/* /Contenuto jumbotron */
 
 main {
     margin-bottom: 50px;
@@ -67,6 +71,7 @@ main {
     clear: both;
 }
 
+/* Contenuto main */
 #header-main {
     margin-bottom: 15px;
 }
@@ -115,11 +120,11 @@ main {
     width: 100%;
 }
 
-#img-column-c img {
+#img-column-c img { 
     height: 100%;
     width: 100%;
     border-radius: 10px 10px 10px 10px;
-    filter: brightness(80%);
+    filter: brightness(80%)
 }
 
 #column-center h4 {
@@ -134,6 +139,7 @@ main {
     float: left;
     width: 20%;
 }
+/* /Contenuto main */
 
 footer div {
     text-align: center;
