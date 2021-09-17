@@ -42,9 +42,17 @@ ul li {
 
 #jumbotron {
     background-image: url(img/banner.jpg);
+    background-position: center;
+    filter: brightness(80%);
     height: 500px;
     margin-bottom: 30px;
     border-radius: 10px 10px 10px 10px;
+}
+
+#jumbotron #main-jumbotron {
+    padding-top: 290px;
+    padding-left: 50px;
+    width: 43%;
 }
 
 main {
