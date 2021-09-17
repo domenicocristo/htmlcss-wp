@@ -35,8 +35,9 @@ ul li {
     display: inline;
 }
 
-.link {
+.link-nav {
     text-decoration: none;
+    padding-right: 15px;
     color: grey;
 }
 
@@ -52,8 +53,8 @@ ul li {
 #jumbotron #main-jumbotron {
     padding-top: 290px;
     padding-left: 50px;
-    width: 43%;
-    color: white;
+    width: 49%;
+    color: black;
 }
 
 main {
