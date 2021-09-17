@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #container {
     width: 80%;
     margin: 30px auto;
 }
 
 header {
-    height: 80px;
     margin-bottom: 30px;
 }
 
@@ -21,15 +24,27 @@ header img {
 }
 
 nav {
-    background-color: red;
-    height: 60px;
     margin-bottom: 30px;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
+
 #jumbotron {
-    background-color: yellow;
+    background-image: url(img/banner.jpg);
     height: 500px;
     margin-bottom: 30px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 main {
