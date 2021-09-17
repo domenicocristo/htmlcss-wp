@@ -93,7 +93,7 @@ main {
 }
 
 #column-left h4, #column-right h4 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #column-left div, #column-right div {
@@ -121,7 +121,7 @@ main {
 }
 
 #column-center h4 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #column-center div {
