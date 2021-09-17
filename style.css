@@ -10,9 +10,14 @@
 }
 
 header {
-    background-color: palevioletred;
-    height: 100px;
+    height: 80px;
     margin-bottom: 30px;
+}
+
+header img {
+    height: 80px;
+    border-right: 1px solid gray;
+    padding-right: 10px;
 }
 
 nav {
