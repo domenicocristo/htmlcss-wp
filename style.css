@@ -57,8 +57,7 @@ ul li {
 }
 
 main {
-    height: 700px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .clearfix::after { 
@@ -77,11 +76,11 @@ main {
 
 #column-left {
     float: left;
-    height: 600px;
     width: 20%;
 }
 
 .img-column-lr {
+    margin-bottom: 15px;
     width: 100%;
     height: 200px;
 }
@@ -93,15 +92,23 @@ main {
     filter: brightness(80%);
 }
 
+#column-left h4, #column-right h4 {
+    margin-bottom: 15px;
+}
+
+#column-left div, #column-right div {
+    color: grey;
+}
+
 #column-center{
     float: left;
-    height: 600px;
     width: 58%;
     margin-left: 1%;
     margin-right: 1%;
 }
 
 #img-column-c {
+    margin-bottom: 15px;
     height: 200px;
     width: 100%;
 }
@@ -113,9 +120,16 @@ main {
     filter: brightness(80%);
 }
 
+#column-center h4 {
+    margin-bottom: 15px;
+}
+
+#column-center div {
+    color: grey;
+}
+
 #column-right {
     float: left;
-    height: 600px;
     width: 20%;
 }
 
