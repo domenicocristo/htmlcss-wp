@@ -19,7 +19,7 @@ header {
 
 header img {
     height: 80px;
-    border-right: 1px solid gray;
+    border-right: 1px solid grey;
     padding-right: 10px;
 }
 
@@ -53,31 +53,40 @@ ul li {
     padding-top: 290px;
     padding-left: 50px;
     width: 43%;
+    color: white;
 }
 
 main {
-    background-color: blue;
+    background-color: hotpink;
     height: 700px;
     margin-bottom: 10px;
 }
 
-.clearfix::after {
+.clearfix::after { 
     content: "";
     display: table;
     clear: both;
 }
 
 #header-main {
-    background-color: aqua;
     height: 65px;
     margin-bottom: 15px;
 }
 
+#header-main div {
+    color: grey;
+}
+
 #column-left {
     float: left;
-    background-color: aqua;
     height: 600px;
     width: 20%;
+}
+
+.img-column-lr {
+    width: 20%;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 #column-center{
@@ -89,14 +98,22 @@ main {
     margin-right: 1%;
 }
 
+#img-column-c {
+    background-size: cover;
+    height: 600px;
+    width: 58%;
+}
+
 #column-right {
     float: left;
-    background-color: aqua;
     height: 600px;
     width: 20%;
 }
 
-footer {
-    background-color: blue;
-    height: 35px;
+footer div {
+    text-align: center;
+}
+
+footer span {
+    color: red;
 }
